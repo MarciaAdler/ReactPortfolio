@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Project 1: hungry much?",
+    "image": "../images/projectone.png",
+    "link": "https://marciaadler.github.io/ProjectOne/",
+    "github": "https://github.com/MarciaAdler/ProjectOne",
+    "description": "hungry much? is an app that allows users to search for recipes by main ingredient and get a list of recipes that include the main ingredient along with the nutritional information and a link to the recipe.  Users can save recipes for future reference.  Users can also search for food items and get nutritional information per serving for food items",
+    "technologies": "HTML, CSS, JavaScript, JQuery, API"
+  },
+  {
+    "id": 2,
+    "name": "Project 2: The Viral",
+    "image": "../images/TheViral.png",
+    "link": "https://shrouded-woodland-22808.herokuapp.com/",
+    "github": "https://github.com/MarciaAdler/Project2",
+    "description": "The Viral App allows users to view the progression of the Coronavirus (COVID-19) and see how many cases have been diagnosed over time globally and also by country. Users can view a graph that shows the progression of the virus since they began tracking it.  Users can also view a news feed that shows relevant articles, and twitter posts via APIs.",
+    "technologies": "HTML, CSS, JavaScript, JQuery, express, Sequelize, handlebars, Puppeteer, D3, API"
+  },
+  {
+    "id": 3,
+    "name": "Password Generator App",
+    "image": "../images/password-generator.png",
+    "link": "https://marciaadler.github.io/PasswordGenerator/",
+    "github": "https://github.com/MarciaAdler/PasswordGenerator",
+    "description": "The password generator allows users to generate random passwords based on criteria they input through prompts.  Users can input how many characters they want the password to be, and then select if they want special characters, upper or lowercase letters, and numbers to be included.  Once generated, users can copy the password to their computer's clipboard and paste it wherever they'd like.",
+    "technologies": "HTML, CSS, JavaScript"
+  },
+  {
+    "id": 4,
+    "name": "Day Planner App",
+    "image": "../images/dayplannerapp.png",
+    "link": "https://marciaadler.github.io/DayPlanner/",
+    "github": "https://github.com/MarciaAdler/DayPlanner",
+    "description": "he Day Planner allows users to view their daily schedule by hour.  The app color codes the inputs by hours, grey being in the past, red being current, and green in the future.  Users can input their activities into the color coded section and save their inputs to local storage for future reference.",
+    "technologies": "HTML, CSS, JavaScript, JQuery"
+  }
+]

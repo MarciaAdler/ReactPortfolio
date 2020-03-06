@@ -1,18 +1,38 @@
 import React from "react";
 const styles = {
-  card: {
-    width: "200px"
-  }
+  card: {}
 };
-function PortfolioItems() {
+function PortfolioItems(props) {
   return (
     <div className="card" style={styles.card}>
-      <img src="..." className="card-img-top" alt="..." />
-      <div className="card-body">
-        <p className="card-text">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </p>
+      <div className="img-container">
+        <img alt={props.name} src={props.image} />
+      </div>
+      <div className="content">
+        <ul>
+          <li>
+            <strong>Name:</strong>
+            {props.name}
+          </li>
+          <li>
+            <strong>
+              Click <a href={props.link}>Here</a> to view app
+            </strong>
+          </li>
+          <li>
+            <strong>
+              Click <a href={props.github}>Here</a> to view repo on Github
+            </strong>
+          </li>
+          <li>
+            <strong>Description:</strong>
+            {props.description}
+          </li>
+          <li>
+            <strong>Technologies used:</strong>
+            {props.technologies}
+          </li>
+        </ul>
       </div>
     </div>
   );
