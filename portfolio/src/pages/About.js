@@ -4,7 +4,8 @@ import AboutImage from "../components/AboutImage";
 const styles = {
   container: {
     marginBottom: "50px",
-    marginTop: "0"
+    marginTop: "0",
+    paddingBottom: "50px"
   },
   title: {
     textAlign: "center"
