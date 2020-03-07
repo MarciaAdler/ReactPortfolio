@@ -3,7 +3,8 @@ import AboutImage from "../components/AboutImage";
 
 const styles = {
   container: {
-    marginBottom: "50px"
+    marginBottom: "50px",
+    marginTop: "0"
   },
   title: {
     textAlign: "center"
@@ -14,8 +15,7 @@ const styles = {
 };
 function About() {
   return (
-    <div className="container mt-5" style={styles.container}>
-      <h1 style={styles.title}>Marcia Adler</h1>
+    <div className="container" style={styles.container}>
       <hr />
       <AboutImage />
       <p style={styles.p}>

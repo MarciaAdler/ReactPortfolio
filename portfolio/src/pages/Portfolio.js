@@ -4,7 +4,8 @@ import portfolioitems from "../portfolioitems.json";
 
 const styles = {
   container: {
-    marginBottom: "50px"
+    marginBottom: "50px",
+    paddingBottom: "30px"
   },
   title: {
     textAlign: "center"
@@ -17,7 +18,7 @@ class Portfolio extends Component {
 
   render() {
     return (
-      <div className="container mt-5 mb-5" style={styles.container}>
+      <div className="container mt-2 mb-5" style={styles.container}>
         <h1 style={styles.title}>Portfolio</h1>
         <p style={styles.title}>
           Below are samples of some of my projects. Please feel free to reach

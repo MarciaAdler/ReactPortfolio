@@ -7,7 +7,8 @@ const styles = {
     clear: "both",
     width: "100%",
     bottom: "0",
-    paddingTop: "15px"
+    paddingTop: "25px",
+    opacity: "55%"
   }
 };
 function Footer() {
