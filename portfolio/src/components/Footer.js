@@ -12,7 +12,7 @@ const styles = {
   }
 };
 function Footer() {
-  return <footer style={styles.footer}>copyright</footer>;
+  return <footer style={styles.footer}></footer>;
 }
 
 export default Footer;

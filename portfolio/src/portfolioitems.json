@@ -42,6 +42,15 @@
     "link": "https://limitless-island-26284.herokuapp.com/",
     "github": "https://github.com/MarciaAdler/BudgetTracker",
     "description": "The Budget Tracker App allows users to track their incoming and outgoing payments.  Users are able to input the name of a transcation, the amount, and whether they are adding funds or subtracting funds. Users can then see a list of their transactions, as well as a graph showing their total budget over time.  History is tracker in a database, and the app can be used offline.  Any transactions made while offline will be stored to be processed once a user goes back online.  The app is also designed to be a Progressive Web App (PWA) and is mobile friendly.",
-    "technologies": "HTML, CSS, JavaScript, MongoDb, IndexedDB, PWA"
+    "technologies": "HTML, CSS, JavaScript, MongoDB, IndexedDB, PWA"
+  },
+  {
+    "id": 6,
+    "name": "Fitness Tracker App",
+    "image": "./images/fitnesstracker.png",
+    "link": "https://vast-oasis-67368.herokuapp.com/?id=5e5d28ffb531fe0017469725",
+    "github": "https://github.com/MarciaAdler/fitness-tracker",
+    "description": "The fitness tracker app allows users to add exercises and create workouts. Users can add exercises to a the last workout, or they can create a new workout.  Users can view a dashboard to view summaries of their recent exercises.",
+    "technologies": "HTML, CSS, JavaScript, MongoDB, PWA, Express"
   }
 ]

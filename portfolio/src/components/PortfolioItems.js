@@ -12,7 +12,7 @@ function PortfolioItems(props) {
       <div className="content">
         <ul>
           <li>
-            <strong>Name:</strong>
+            <strong>Name: </strong>
             {props.name}
           </li>
           <li>
@@ -26,11 +26,11 @@ function PortfolioItems(props) {
             </strong>
           </li>
           <li>
-            <strong>Description:</strong>
+            <strong>Description: </strong>
             {props.description}
           </li>
           <li>
-            <strong>Technologies used:</strong>
+            <strong>Technologies used: </strong>
             {props.technologies}
           </li>
         </ul>
