@@ -2,6 +2,14 @@ import React, { Component } from "react";
 import PortfolioItems from "../components/PortfolioItems";
 import portfolioitems from "../portfolioitems.json";
 
+const styles = {
+  container: {
+    marginBottom: "50px"
+  },
+  title: {
+    textAlign: "center"
+  }
+};
 class Portfolio extends Component {
   state = {
     portfolioitems
@@ -9,8 +17,13 @@ class Portfolio extends Component {
 
   render() {
     return (
-      <div className="container mt-5">
-        <h1>Portfolio</h1>
+      <div className="container mt-5 mb-5" style={styles.container}>
+        <h1 style={styles.title}>Portfolio</h1>
+        <p style={styles.title}>
+          Below are samples of some of my projects. Please feel free to reach
+          out with any questions or should you see something that peeks your
+          interest.
+        </p>
         <hr />
         {this.state.portfolioitems.map(item => (
           <PortfolioItems
