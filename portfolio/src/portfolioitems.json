@@ -50,7 +50,7 @@
     "image": "./images/fitnesstracker.png",
     "link": "https://vast-oasis-67368.herokuapp.com/?id=5e5d28ffb531fe0017469725",
     "github": "https://github.com/MarciaAdler/fitness-tracker",
-    "description": "The fitness tracker app allows users to add exercises and create workouts. Users can add exercises to a the last workout, or they can create a new workout.  Users can view a dashboard to view summaries of their recent exercises.",
-    "technologies": "HTML, CSS, JavaScript, MongoDB, PWA, Express"
+    "description": "The fitness tracker app allows users to add exercises and create workouts. Users can add exercises to the last workout, or they can create a new workout.  Users can view a dashboard to view a summary of their recent exercises.",
+    "technologies": "HTML, CSS, JavaScript, MongoDB, Express"
   }
 ]
