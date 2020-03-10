@@ -17,9 +17,11 @@ function NavTabs() {
     <ul className="nav justify-content-center" style={styles.nav}>
       <li className="nav-item">
         <Link
-          to="/about"
+          to="/ReactPortfolio/about"
           className={
-            location.pathname === "/about" ? "nav-link active" : "nav-link"
+            location.pathname === "/ReactPortfolio/about"
+              ? "nav-link active"
+              : "nav-link"
           }
         >
           About
@@ -27,9 +29,11 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <Link
-          to="/portfolio"
+          to="/ReactPortfolio/portfolio"
           className={
-            location.pathname === "/portfolio" ? "nav-link active" : "nav-link"
+            location.pathname === "ReactPortfolio/portfolio"
+              ? "nav-link active"
+              : "nav-link"
           }
         >
           Portfolio
@@ -37,9 +41,11 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <Link
-          to="/contact"
+          to="/ReactPortfolio/contact"
           className={
-            location.pathname === "/contact" ? "nav-link active" : "nav-link"
+            location.pathname === "ReactPortfolio/contact"
+              ? "nav-link active"
+              : "nav-link"
           }
         >
           Contact
