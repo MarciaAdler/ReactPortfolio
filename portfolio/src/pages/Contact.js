@@ -48,6 +48,7 @@ function Contact() {
             <a
               style={styles.link}
               href="https://www.linkedin.com/in/marciaadler/"
+              target="_blank"
             >
               LinkedIn
             </a>
@@ -61,7 +62,11 @@ function Contact() {
               src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
             />
 
-            <a style={styles.link} href="https://github.com/MarciaAdler">
+            <a
+              style={styles.link}
+              href="https://github.com/MarciaAdler"
+              target="_blank"
+            >
               GitHub
             </a>
           </div>

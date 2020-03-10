@@ -20,12 +20,20 @@ function PortfolioItems(props) {
             </li>
             <li>
               <strong>
-                Click <a href={props.link}>Here</a> to view app
+                Click{" "}
+                <a href={props.link} target="_blank">
+                  Here
+                </a>{" "}
+                to view app
               </strong>
             </li>
             <li>
               <strong>
-                Click <a href={props.github}>Here</a> to view repo on Github
+                Click{" "}
+                <a href={props.github} target="_blank">
+                  Here
+                </a>{" "}
+                to view repo on Github
               </strong>
             </li>
             <li>
