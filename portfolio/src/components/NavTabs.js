@@ -31,7 +31,7 @@ function NavTabs() {
         <Link
           to="/ReactPortfolio/portfolio"
           className={
-            location.pathname === "ReactPortfolio/portfolio"
+            location.pathname === "/ReactPortfolio/portfolio"
               ? "nav-link active"
               : "nav-link"
           }
@@ -43,7 +43,7 @@ function NavTabs() {
         <Link
           to="/ReactPortfolio/contact"
           className={
-            location.pathname === "ReactPortfolio/contact"
+            location.pathname === "/ReactPortfolio/contact"
               ? "nav-link active"
               : "nav-link"
           }
