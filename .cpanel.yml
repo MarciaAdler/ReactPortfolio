@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/omgsuc5/portfolio.omgsuchawholelife.com/public_html/
+    - export DEPLOYPATH=/home/omgsuc5/public_html/portfolio.omgsuchawholelife.com/
     - /bin/cp -r * $DEPLOYPATH
